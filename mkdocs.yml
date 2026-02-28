@@ -1,0 +1,44 @@
+site_name: Персональный сайт
+site_description: Персональный сайт в рамках курсовой работы по MkDocs
+site_author: Filianin Ivan Victorovich
+site_url: ""
+
+theme:
+  name: material
+  language: ru
+  logo: images/logo.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    primary: teal
+    accent: amber
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/
+
+copyright: Copyright © 2026 Filianin Ivan Victorovich
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+  - Резюме: resume.md
+  - Достижения: achievements.md
