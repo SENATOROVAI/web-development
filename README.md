@@ -11,14 +11,14 @@
 
 ## Структура проекта
 
-- `docs/` — страницы сайта
-- `docs/images/` — изображения и логотип
-- `mkdocs.yml` — конфигурация сайта
+- `my-personal-site/docs/` — страницы сайта
+- `my-personal-site/docs/images/` — изображения и логотип
+- `my-personal-site/mkdocs.yml` — конфигурация сайта
 
 ## Локальный запуск
 
 ```bash
-cd <папка_проекта>
+cd <папка_репозитория>/my-personal-site
 python -m pip install mkdocs mkdocs-material
 python -m mkdocs serve
 ```
@@ -28,7 +28,8 @@ python -m mkdocs serve
 ## Сборка
 
 ```bash
+cd <папка_репозитория>/my-personal-site
 python -m mkdocs build
 ```
 
-Собранные статические файлы появляются в папке `site/`.
+Собранные статические файлы появляются в папке `my-personal-site/site/`.
