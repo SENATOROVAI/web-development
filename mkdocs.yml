@@ -1,6 +1,6 @@
-site_name: Персональный сайт
-site_description: Персональный сайт в рамках курсовой работы по MkDocs
-site_author: Filianin Ivan Victorovich
+site_name: Персональный сайт Казара Владимира Сергеевича
+site_description: Персональный сайт в рамках курсовой работы по дисциплине «Введение в веб технологии»
+site_author: Казар Владимир Сергеевич
 site_url: ""
 
 theme:
@@ -29,11 +29,11 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/
+      link: https://github.com/SENATOROVAI
     - icon: fontawesome/brands/telegram
-      link: https://t.me/
+      link: https://t.me/KazarVladimir
 
-copyright: Copyright © 2026 Filianin Ivan Victorovich
+copyright: Copyright © 2026 Казар Владимир Сергеевич
 
 nav:
   - Главная: index.md
